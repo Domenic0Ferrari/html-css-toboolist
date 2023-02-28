@@ -26,16 +26,16 @@ img{
 }
 
 .container{
-    margin: auto;
-    background-color: #FFFFFF;
-    height: 10%;
-    width: 70%;
-    border-radius: 5px;
-    padding: 1px;
+  margin: auto;
+  margin-top:4% ;
+  background-color: #FFFFFF;
+  height: 50px;
+  width: 900px;
+  border-radius: 5px;
 }
 
 .bottom{
-    padding: 20px 40px;
+    padding: 15px 20px;
 }
 
 .task{
@@ -57,3 +57,71 @@ img{
     font-size: 12px;
 }
 
+.container2{
+ margin: auto;
+ width: 900px;
+ background-color: #FFFFFF;
+ height: 500px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.list{
+  margin: 30px 40px;
+}
+
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.yes{
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+.none{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.pulsante{
+    color: #ffffff;
+    padding: 4px;
+    font-size: 10px;
+    height: 15px;
+    border-radius: 5px;
+  }
+
+  .blu{
+    background-color: #99cbff;
+  }
+  
+  .viola{
+    background-color: #BA55D3;
+  }
+  
+  .verde{
+    background-color: #3CB371;
+  }
+  
+  .arancione{
+    background-color: #F4A460;
+  }
+  
+  .rosa{
+    background-color: #C71585;
+  }
+  
+  .verde{
+    background-color: #3CB371;
+  }
