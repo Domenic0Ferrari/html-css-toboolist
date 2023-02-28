@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 img{
@@ -24,3 +24,36 @@ img{
     font-size: 50px;
     vertical-align: middle;
 }
+
+.container{
+    margin: auto;
+    background-color: #FFFFFF;
+    height: 10%;
+    width: 70%;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.bottom{
+    padding: 20px 40px;
+}
+
+.task{
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+        border: 2px solid#E8EAEC;
+
+        color: #FFFFFF;
+        background-color: #47ADF1;
+}
+
+.section{
+    color: #E8EAEC;
+    border: 2px solid#E8EAEC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
