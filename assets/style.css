@@ -10,32 +10,31 @@ body{
 
 header{
     background-color: #FFFFFF;
+    padding: 5px 20px;
 }
 
 img{
-    margin-top: 20px;
-    margin-left: 30px;
     vertical-align: middle;
-    margin-bottom: 5px;
 }
 
 .title{
     display: inline;
     font-size: 50px;
+    font-weight: bold;
     vertical-align: middle;
 }
 
 .container{
   margin: auto;
-  margin-top:1% ;
+  margin-top: 1rem;
   background-color: #FFFFFF;
-  width: 900px;
+  max-width: 900px;
   border-radius: 5px;
 }
 
 .bottom{
-    padding: 1.5% 5%;
-    margin: auto;
+    padding: 1.5rem 2.5rem 0.5rem;
+    border-bottom: 2px solid #F6F8FA ;
 }
 
 .task{
@@ -57,36 +56,38 @@ img{
     font-size: 12px;
 }
 
-.container2{
- margin: auto;
- width: 900px;
- background-color: #FFFFFF;
- height: 500px;
+
+.list-section{
+  list-style: none;
+  padding: 1.5rem 2.5rem ;
 }
 
 
-ul{
-    list-style: none;
-}
 
 li{
-  padding-top: 10px;
+  display: block;
+  margin-top: 0.5rem;
 }
 
-.list{
-  margin: 30px 40px;
+
+
+
+.triangle{
+  vertical-align: -3px ;
 }
 
 h3{
   font-size: 20px;
+  font-weight: bold;
   padding-top: 20px;
 }
 
+
 .circle{
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 10px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5rem;
   border-radius: 50%;
   line-height: 15px;
   font-size: 10px;
