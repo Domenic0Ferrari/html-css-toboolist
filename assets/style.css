@@ -27,15 +27,15 @@ img{
 
 .container{
   margin: auto;
-  margin-top:4% ;
+  margin-top:1% ;
   background-color: #FFFFFF;
-  height: 50px;
   width: 900px;
   border-radius: 5px;
 }
 
 .bottom{
-    padding: 15px 20px;
+    padding: 1.5% 5%;
+    margin: auto;
 }
 
 .task{
@@ -69,8 +69,17 @@ ul{
     list-style: none;
 }
 
+li{
+  padding-top: 10px;
+}
+
 .list{
   margin: 30px 40px;
+}
+
+h3{
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 .circle{
